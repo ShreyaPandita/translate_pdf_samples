@@ -35,3 +35,26 @@ python translate_pdf.py input.pdf output.pdf
 
 # Specify source and target languages
 python translate_pdf.py input.pdf output.pdf --source-lang en --target-lang fr
+
+## Arguments
+
+input_file: Path to the source PDF file
+
+output_file: Path for the translated PDF file
+
+--source-lang: Source language code (default: en)
+
+--target-lang: Target language code (default: es)
+
+## AWS Configuration
+
+Ensure your AWS credentials are properly configured with permissions to access AWS Translate service. The script expects AWS credentials to be configured using standard AWS credential configuration methods.
+
+## Limitations
+
+- Some fonts might not support all target language characters
+- Complex PDF layouts might require manual adjustment
+- AWS Translate service quotas apply
+
+## Contributing
+- Contributions, issues, and feature requests are welcome!
