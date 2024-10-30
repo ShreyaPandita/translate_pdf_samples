@@ -56,5 +56,6 @@ Ensure your AWS credentials are properly configured with permissions to access A
 - Complex PDF layouts might require manual adjustment
 - AWS Translate service quotas apply
 
-**## Contributing
-**- Contributions, issues, and feature requests are welcome!
+## Contributing
+
+Contributions, issues, and feature requests are welcome!
